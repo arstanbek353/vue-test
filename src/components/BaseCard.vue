@@ -2,12 +2,7 @@
   <div class="Base-Card">
     <h3>{{ title }}</h3>
     <p>{{ body }}</p>
-    <a
-      :href="'posts/' + postId"
-      class="link"
-      @click="$router.push(`/posts/${postId}`)"
-      >More</a
-    >
+    <a class="link" @click="$router.push(`/posts/${postId}`)">More</a>
   </div>
 </template>
 
