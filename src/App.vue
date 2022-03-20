@@ -1,4 +1,5 @@
 <template>
+  <h1>gh pages</h1>
   <router-view />
 </template>
 
